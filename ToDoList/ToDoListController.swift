@@ -20,7 +20,7 @@ class ToDoListController: UITableViewController {
     private var newTasks = [Task]()
     private var doneTasks = [Task]()
     private var deletedTasks = [Task]()
-    private var listMode = ListMode.deleted
+    private var listMode = ListMode.new
     private var tasks: [Task] {
         switch listMode {
         case .new:
